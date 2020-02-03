@@ -32,6 +32,7 @@
 
 
 <%= form_for @user do |f| %>
+  <%= render 'shared/errors', obj: @user %>
   <p>
     <%= f.label :username, 'Name:' %>
     <%= f.text_field :username, placeholder: "Enter your username" %>
