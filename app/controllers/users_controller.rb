@@ -1,9 +1,8 @@
 # frozen_string_literal: true
 
 class UsersController < ApplicationController
-  def index
-  end
-  
+  def index; end
+
   def new
     @user = User.new
   end
@@ -33,7 +32,7 @@ class UsersController < ApplicationController
       render 'edit'
     end
   end
-  
+
   private
 
   def user_params
