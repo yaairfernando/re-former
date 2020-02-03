@@ -9,27 +9,27 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
- <h2 align="center">Rails Application implementing forms</h2>
+ <h2 align="center">Ruby on Rails application implementing forms</h2>
 
   <p align="center">
-    Ruby and rails project that implements a basic set up of different forms with different tags, like plain HTML form, Rails form_tag and form_for
+    Ruby on Rails project that implements a basic set up of different forms with different tags, like plain HTML form tag, Ruby on Rails form_tag and form_for tag.
     <br />
     <a href="https://github.com/Jaakal/building-with-active-record"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/Jaakal/building-with-active-record">View Demo</a>
+    <a href="https://github.com/Jaakal/building-with-active-record">View demo</a>
     ·
-    <a href="https://github.com/Jaakal/building-with-active-record/issues">Report Bug</a>
+    <a href="https://github.com/Jaakal/building-with-active-record/issues">Report bug</a>
     ·
-    <a href="https://github.com/Jaakal/building-with-active-record/issues">Request Feature</a>
+    <a href="https://github.com/Jaakal/building-with-active-record/issues">Request feature</a>
   </p>
 
 </p>
 
 ## Table of Contents
-* [About the Project](#about-the-project)
-  * [Built With](#built-with)
-* [Required Installations](#Required-Installations)
+* [About the project](#about-the-project)
+  * [Built with](#built-with)
+* [Required installations](#Required-Installations)
   * [Prerequisites](#Prerequisites)
   * [Installing](#Installing)
   * [Instructions](#Instructions)
@@ -42,33 +42,33 @@
 ### Built With
 The project was developed using the following technologies:
 - [Ruby](https://www.ruby-lang.org/es/)
-- [Ruby and Rails](https://rubyonrails.org/)
+- [Ruby on Rails](https://rubyonrails.org/)
 
 ## Required Installations
 
 ### Prerequisites
 
-This project runs on [Ruby](https://www.ruby-lang.org/en/documentation/installation/), and [Rails](http://installrails.com/)
+This project runs on [Ruby](https://www.ruby-lang.org/en/documentation/installation/) and [Ruby on Rails](http://installrails.com/)
+
+### Installing
+
+<p>Install the following to get this project running in your machine:</p>
  
 * Ruby
-* Rails
+* Ruby on Rails
 
-After installation, run `ruby -v` to make sure Ruby installed correctly. Example
+After installation run `ruby -v` to make sure Ruby installed correctly. Example:
 ```
 $ ruby -v
 ruby 2.6.4p104 (2019-08-28 revision 67798) [x86_64-linux]
 ```
 
 Also make sure that Rails is installed, but running `rails -v`. 
-Example
+Example:
 ```
 $ rails -v
 Rails 6.0.2.1
 ```
-
-### Installing
-
-<p>Install the following to get this project running in your machine:</p>
 
 ### Instructions
 
@@ -80,7 +80,7 @@ Clone the Repository
 user@pc:~$ git clone https://github.com/YairFernando67/re-former
 ```
 
-Click on the console and to go to the folder that was created
+On the console go to the folder that was created
 
 ```Shell
 user@pc:~$ cd re-former
@@ -90,7 +90,7 @@ user@pc:~$ cd re-former
 $ bundle install --without production
 ```
 
-Next, migrate the database:
+Then migrate the database:
 
 ```
 $ rails db:migrate
@@ -137,7 +137,7 @@ $ User.all
 
 <p align="center">
 
-  Project Link: [https://github.com/YairFernando67/sample_app](https://github.com/YairFernando67/sample_app)
+  Project Link: [https://github.com/YairFernando67/sample_app](https://github.com/YairFernando67/re-former)
 
 </p>
 
