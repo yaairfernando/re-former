@@ -33,18 +33,18 @@
 
 <%= form_for @user do |f| %>
   <p>
-    <%= f.label :username %>
-    <%= f.text_field :username %>
+    <%= f.label :username, 'Name:' %>
+    <%= f.text_field :username, placeholder: "Enter your username" %>
   </p>
 
   <p>
     <%= f.label :email %>
-    <%= f.email_field :email %>
+    <%= f.email_field :email, placeholder: "Enter your email: fer@gmail.com" %>
   </p>
 
   <p>
     <%= f.label :password %>
-    <%= f.password_field :password %>
+    <%= f.password_field :password, placeholder: "Enter your password" %>
   </p>
 
   <p>
