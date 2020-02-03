@@ -9,10 +9,10 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
- <h2 align="center"> Rails Application implementing Active Record Associations </h2>
+ <h2 align="center">Rails Application implementing forms</h2>
 
   <p align="center">
-    Ruby and rails project that implements a basic association between models using Active Record
+    Ruby and rails project that implements a basic set up of different forms with different tags, like plain HTML form, Rails form_tag and form_for
     <br />
     <a href="https://github.com/Jaakal/building-with-active-record"><strong>Explore the docs »</strong></a>
     <br />
@@ -41,8 +41,8 @@
 
 ### Built With
 The project was developed using the following technologies:
-- [RUBY](https://www.ruby-lang.org/es/)
-- [RUBY AND RAILS](https://rubyonrails.org/)
+- [Ruby](https://www.ruby-lang.org/es/)
+- [Ruby and Rails](https://rubyonrails.org/)
 
 ## Required Installations
 
@@ -77,13 +77,13 @@ Rails 6.0.2.1
 Clone the Repository
 
 ```Shell
-user@pc:~$ git clone https://github.com/Jaakal/building-with-active-record
+user@pc:~$ git clone https://github.com/YairFernando67/re-former
 ```
 
 Click on the console and to go to the folder that was created
 
 ```Shell
-user@pc:~$ cd building-with-active-record
+user@pc:~$ cd re-former
 ```
 
 ```
@@ -96,33 +96,27 @@ Next, migrate the database:
 $ rails db:migrate
 ```
 
-Run this command if you encountered a problem runing rails db:migrate
+Run this command if you encountered a problem running rails db:migrate
 
 ```
 $ bundle exec rails db:migrate
 ```
 
 
-Finally you can test the associations through the rails console:
+Finally you can test the forms in the browser:
 
 ```
-$ rails console
+http://localhost:3000/users/new
 ```
 
-Code Example
-
 ```
-$ user = User.create(name: "Joe", username: "Joe12")
-$ post = Post.create(content: "This is my first content", user_id: user.id)
-$ comment = Comment.create(content: "Great post!!", post_id: post.id, user_id: user.id)
+http://localhost:3000/users/:id/edit
 ```
 
-Testing the associations
+Controlling the database entries on the console
 ```
-$ User.first.posts
-$ User.first.comments
-$ Comment.first.user
-$ Post.first.user
+$ Hirb.enable
+$ User.all
 ```
 
 ## Contact
@@ -165,23 +159,23 @@ $ Post.first.user
 
 Contributions, issues and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/Jaakal/building-with-active-record/issues).
+Feel free to check the [issues page](https://github.com/YairFernando67/re-former/issues).
 
 ## Show your support
 
 Give a ⭐️ if you like this project!
 
 <!-- MARKDOWN LINKS & IMAGES -->
-[contributors-shield]: https://img.shields.io/github/contributors/Jaakal/building-with-active-record.svg?style=flat-square
-[contributors-url]: https://github.com/Jaakal/building-with-active-record/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/Jaakal/building-with-active-record.svg?style=flat-square
-[forks-url]: https://github.com/Jaakal/building-with-active-record/network/members
-[stars-shield]: https://img.shields.io/github/stars/Jaakal/building-with-active-record.svg?style=flat-square
-[stars-url]: https://github.com/Jaakal/building-with-active-record/stargazers
-[issues-shield]: https://img.shields.io/github/issues/Jaakal/building-with-active-record.svg?style=flat-square
-[issues-url]: https://github.com/Jaakal/building-with-active-record/issues
-[license-shield]: https://img.shields.io/github/license/Jaakal/building-with-active-record.svg?style=flat-square
-[license-url]: https://github.com/Jaakal/building-with-active-record/blob/master/LICENSE.txt
+[contributors-shield]: https://img.shields.io/github/contributors/YairFernando67/re-former.svg?style=flat-square
+[contributors-url]: https://github.com/YairFernando67/re-former/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/YairFernando67/re-former.svg?style=flat-square
+[forks-url]: https://github.com/YairFernando67/re-former/network/members
+[stars-shield]: https://img.shields.io/github/stars/YairFernando67/re-former.svg?style=flat-square
+[stars-url]: https://github.com/YairFernando67/re-former/stargazers
+[issues-shield]: https://img.shields.io/github/issues/YairFernando67/re-former.svg?style=flat-square
+[issues-url]: https://github.com/YairFernando67/re-former/issues
+[license-shield]: https://img.shields.io/github/license/YairFernando67/re-former.svg?style=flat-square
+[license-url]: https://github.com/YairFernando67/re-former/blob/master/LICENSE.txt
 [linkedin-shield2]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
 [linkedin-url2]: https://www.linkedin.com/in/softwaredeveloperyairfacio/
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
