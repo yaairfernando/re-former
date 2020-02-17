@@ -1,0 +1,8 @@
+<% if obj.errors.any? %>
+  <h5><%= pluralize(obj.errors.count, "error") %> prevented this user for being created</h5>
+  <ul>
+    <% obj.errors.full_messages.each do |error| %>
+      <li><%= error %></li>
+    <% end %>
+  </ul>
+<% end %>
